@@ -10,7 +10,7 @@ import scala.util.Try
 
 object Playground extends IOApp {
   override def run(args: List[String]): IO[ExitCode] =
-    IO(println("Saluton Mondo")).as(ExitCode.Success)
+    IO(println("Saluton Mondo!")).as(ExitCode.Success)
 }
 
 

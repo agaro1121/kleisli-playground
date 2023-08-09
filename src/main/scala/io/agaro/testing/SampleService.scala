@@ -17,7 +17,7 @@ import natchez.Tags
 
 class SomeDependency[F[_] : Trace : Sync] {
   def doStuff: F[Unit] = Trace[F].span("do-stuff") {
-    Sync[F].delay(println("doing stuffs"))
+    Sync[F].delay(println("doing stuffs!!!!"))
   }
 }
 
